@@ -1,0 +1,188 @@
+CSS Properties
+
+Background:-
+CSS background property is used to define the background effects on Html element. There are
+5 CSS background properties that affect the Html elements.
+● background-color => The background-color property is used to specify the background color of the Html element.
+
+● background-image=> The background-image property is used to specify the image in background of the Html element.
+
+● background-repeat => By default, the background-image property repeats the background image horizontally and
+vertically. Some images are repeated only horizontally or vertically. If you do not want to repeat
+background image then set no-repeat.
+● background-attachment =>
+● background-position =>  background-position is use only in case of when you use image in background of any Html
+elements. It is used to define the initial position of the background image. By default, the
+background image is placed on the top-left of the webpage. You can set position of background,
+all background image position are given like  top, bottom, center, left, right.
+
+
+CSS Border:-
+
+The CSS border properties allow you to specify the style, size, and color of an Html element
+border. Following CSS border properties are used for Html elements,
+● border-style => The border-style property specifies what kind of border to display.
+● border-width => width property is used to set the border width. It is set in pixels. You can also set the
+width of the border by using pre-defined values, thin, medium or thick.
+
+● border-color => This properties are used for set the color of Html elements border. There are three method to set
+the color of border.
+             ● Name: It specifies the color name. For example: &quot;red&quot;.
+             ● RGB: It specifies the RGB value of the color. For example: &quot;rgb(255,0,0)&quot;.
+             ● Hex: It specifies the hex value of the color. For example: &quot;#ff0000&quot;.
+
+● border-radius => border-radius are used for give the radius for border, using this you can make a circle.
+
+● border-shadow : HposVerposblurradius spread shadowcolor
+
+
+
+CSS Display:-
+
+CSS display is the most important property of CSS which is used to display Html elements on
+web page. Every Html element on the webpage is a rectangular box and the CSS display
+property specifies the type of box used for an Html element.
+CSS display values
+
+Values Description
+
+display:inline
+It is used to display an Html elements in same line without any line break. In below example three
+paragraph display in same line.
+
+display:none
+It is used for hide text on browser but it does not take any space. In below example we hide three
+paragraph texts.
+
+display:block
+It is used to displays an element as a block element. It displayselements same like &lt;p&gt; tag. In
+below example we display text by using &lt;span&gt; tag. It take some space and also line break same
+like paragraph.
+
+display:inline-block
+It is used to displays an element as a block element. It display an elements same like &lt;p&gt; tag. In
+below example we display text by using &lt;span&gt; tag. It take some space but it display all element
+in same line.
+
+
+CSS Float:-
+
+The CSS float property is a positioning property. It is used to push an element to the left or right,
+allowing other element to wrap around it. It is generally used with images and layouts.
+How it works
+
+Elements are floated only horizontally. So it is possible only to float elements left or right, not up
+or down.
+● A floated element may be moved as far to the left or the right as possible. Simply, it
+means that a floated element can display at extreme left or extreme right.
+● The elements after the floating element will flow around it.
+● The elements before the floating element will not be affected.
+● If the image floated to the right, the texts flow around it, to the left and if the image
+floated to the left, the text flows around it, to the right.
+
+CSS Float Properties
+
+clear=> The clear property is used to avoid elements after the floating elements which flow around it. and it's value is left, right, both, none, inherit.
+
+float => It specifies whether the box should float or not. and its value is left, right, none, inherit.
+
+
+CSS Font:-
+
+CSS font is used for design text or font for display on web page. CSS font properties define the font
+family, boldness, size, and the style of a text.
+
+Font-style property=> Font styles are used for set font style. Font style property has three values they are;
+            
+                      ● normal: The text is shown normally
+
+                      ● italic: The text is shown in italics
+                      ● oblique: The text is &quot;leaning&quot; (oblique is very similar to italic, but less supported)
+
+
+Font-Size property=> We can define size of font in following way
+With Em
+With Percent
+With Pixels
+If you set the text size with pixels then you can gives full control over the text size.
+
+Font size in Em
+The em size unit is recommended by the W3C. 1em is equal to default text size in browsers (16px).
+The size convert pixels to em using this formula: pixels/16=em
+
+Font size in percent
+Text size work on all browsers, you can use default font-size in percent for the &lt;body&gt; element.
+
+
+CSS Margin:-
+
+margins are used for give sufficient space around an element (outside the border). The margin
+does not have a background color, and it is completely transparent. Margin have four properties
+which is given below;
+● top
+● bottom
+● left
+● right
+
+
+CSS Padding:-
+
+The padding clears an area around the content (inside the border) of an element. The padding is
+affected by the background color of the element. Padding have four properties which is given
+below;
+● top
+● bottom
+● left
+● right
+
+CSS Overflow:-
+
+CSS overflow property used to handle the content when it overflows its block level container.
+Why the need for Overflow?
+
+● visible => It specifies that overflow is not clipped. It renders outside the element&#39;s box. This is a default value. 
+● hidden => It specifies that the overflow is clipped, and rest of the content will be invisible.
+● scroll => It specifies that the overflow is clipped, and a scroll
+● bar => is used to see the rest of the content.
+● auto => It specifies that if overflow is clipped, a scroll bar is needed to see the rest of the content.
+
+
+CSS Position:-
+
+position properties are used for set the position of Html elements. css position properties are
+used for set the position of text, image for display on web page.
+ properties;
+● Static
+● Relative
+● Absolute
+
+CSS Opacity:-
+
+In CSS we can easily create transparent images very easily by using Opacity.The CSS
+Opacity property is used to specify the transparency of any Html element. In simple word, you
+can say that it specifies the clarity of the image.
+
+Opacity value should be range 0 to 1 only.
+
+CSS TextStyles:-
+
+CSS text styles are used specify space between letters, words, lines etc…
+Value Description;-
+
+● Letter- spacing=> This property specifies the gap between letters.
+● Word-spacing=> This property specifies the gap between words.
+● Line-height=> This property specifies the height of the line of text.
+● Text-decoration=>This property specifies underline/overline/strikeout/overline/line-through/none. Default value is none.
+● Text-transform=> This property specifies the case of text. Those are uppercase / lowercase / capitalize / none. Default value is none.
+● Text-align=> Used to specify alignment of text. Alignments are left / right /center / justify. Default is left.
+● Text-shadow=> Used to apply shadow for the text. Syn: Hposverposblurradiusshadowcolor
+
+CSS Word Wrap
+
+CSS Word Wrap properties are used for breaks the long words and wrap onto the next line. The
+main use of these properties is to prevent overflow when a long string is unable to fit into a
+containing box.
+word wrap properties:-
+
+● normal =>This property is used to break words only at allowed break points.
+● break-word=> It is used to break unbreakable words. initial It sets this property to its default value.
