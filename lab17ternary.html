@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let a= +prompt("enter first number: ");
+        let b= +prompt("Enter  second number: ");
+        let c= +prompt("Enter third number: ");
+
+        let max=(a>b && a>c) ? a : (b>a && b>c) ? b :c ;
+        console.log(max);
+
+        let x= +prompt("enter the number: ");
+        let eo=(x%2==0)? 'even' : 'odd' ;
+        console.log(eo);
+        
+
+        let c= +prompt("enter the number: ");
+
+        let p=(c===0)? 'you entered zero' : (c<0) ? 'you entered negative number' : 'you entered positive number' ;
+
+        console.log(p);
+
+
+        let amount  = +prompt("purchase amount = ");
+
+        (amount < 1000) ? console.log("total amount = "+amount) : (amount >= 1000 && amount <= 5000) ? console.log("total amount including 5% discount = "+(amount-((amount * 5)/100))+" ") : console.log("total amount including 10% discount = "+(amount-((amount * 10 )/100))+" ");
+        
+
+
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
