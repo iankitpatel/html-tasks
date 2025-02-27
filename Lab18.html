@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        let x=+prompt("Enter a number betweeen 1-12 : ");
+
+        switch(x){
+            case 1:console.log("31 days");break;
+            case 2:console.log("28 or 29 days (depending on leap year)");break;
+            case 3:console.log("31 days");break;
+            case 4:console.log("30 days");break;
+            case 5:console.log("31 days");break;
+            case 6:console.log("30 days");break;
+            case 7:console.log("31 days");break;
+            case 8:console.log("31 days");break;
+            case 9:console.log("30 days");break;
+            case 10:console.log("31 days");break;
+            case 11:console.log("30 days");break;
+            case 12:console.log("31 days");break;
+            
+            default:console.log("Invalid month number!");
+            
+        }
+
+        let a=+prompt("Enter Num 1: ");
+        let b=+prompt("Enter Num 2: ");
+        let c=prompt("Enter Operation:  ");
+
+        switch(c){
+            case '+':console.log(a+b);break;
+            case '-':console.log(a-b);break;
+            case '*':console.log(a*b);break;
+            case '/':console.log(a/b);break;
+            case '%':console.log(a%b);break;
+            default:console.log("invalid operation.");  
+            
+        
+        }
+
+        let id=+prompt("Enter the Id: "); //1001
+
+        switch(id){
+            case 1001:{
+                let ps=+prompt("Enter the password: ");
+                switch (ps===1010){
+                    case true:console.log("Hey Ankit!!");break;
+                    default:console.log("Please enter correct password"); 
+                }
+                break;
+
+            }
+            default: console.log("Invalid Id");
+            
+            
+        }
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
