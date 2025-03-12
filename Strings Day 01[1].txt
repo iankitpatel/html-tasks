@@ -1,0 +1,97 @@
+Que 1 : Write a JavaScript program to count the number of alphabet present in a given String .
+--------
+Sample input  : Apple
+
+Sample output  : The count of alphabet is : 5
+
+let str=prompt('Enter String');
+console.log("String length is :"+str.length);
+==========================================================================================================================
+
+Que 2 : Write a JavaScript program to print the reverse of a given String .
+--------
+Sample input : Enter a String : NareshIT
+Sample output : The reverse of the String is : TIhseraN
+
+<script>
+
+let str=prompt('Enter String');
+for(let i=str.length-1; i>=0; i--)
+{
+    document.writeln(str[i]);
+}
+
+</script>
+
+or 
+
+str.split('').reverse()
+==========================================================================================================================
+
+Que 3 : Write a JavaScript program to count the Count the vowel, Consonant, Digit and Special Character in a given String .
+--------
+Sample input : Enter a String : Nareshit @123
+
+Sample output  :
+Vowel count is : 3
+Consonant count is : 5
+Digit count is : 3
+Special Character count is : 1
+
+<script>
+let v=0, co=0,d=0,spe=0;
+let str=prompt('Enter String');
+str = str.split("");
+for(let i=0;i<str.length; i++)
+{
+    // if(str[i]>='A' && str[i]<='Z') str+=32;
+    if(str[i]>='A' && str[i]<='Z') str[i] = str[i].toLowerCase();
+
+    if(str[i]>='a' && str[i]<='z'){
+        if(str[i]==='a' || str[i]==='e' || str[i]==='i' || str[i]==='o' || str[i]==='u')v++;
+        else co++;
+    }
+    else if(str[i]>='0' && str[i]<='9')d++;
+    else spe++;
+}
+
+document.writeln("Vowel count is :"+v,"<br>");
+document.writeln("Consonant count is :"+co,"<br>");
+document.writeln("Digit count is :"+d,"<br>");
+document.writeln("Special Character count is :"+spe);
+
+</script>
+
+
+
+==========================================================================================================================
+
+ Que 4 : Write a JavaScript program to check is the String contains any vowel or not.
+--------
+Sample input  : Enter a String : Apple
+Sample output  : This String contains vowel.
+
+Sample input : Enter a String : Rhythm
+Sample output  : There is no vowel present in this String.
+
+<script>
+let c=0;
+let str=prompt('Enter String');
+str = str.split("");
+for(let i=0;i<str.length; i++)
+{
+    // if(str[i]>='A' && str[i]<='Z') str+=32;
+    if(str[i]>='A' && str[i]<='Z') str[i] = str[i].toLowerCase();
+
+    if(str[i]>='a' && str[i]<='z'){
+        if(str[i]==='a' || str[i]==='e' || str[i]==='i' || str[i]==='o' || str[i]==='u')
+        c++;
+    } 
+}
+if(c!=0){
+    document.write("this string contains vowels.");
+}
+else{
+    document.write("this string does not contain any vowels");
+}
+</script>
